@@ -1,0 +1,37 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+ul.nav, .jumbotron h1{
+	    font-family: 'Arvo',courier, serif;
+
+
+}
+.jumbotron{
+	text-align: center;
+	background-image: url("../images/hero-image.jpg");
+	color: white;
+	}
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.jumbotron p{
+	margin-bottom: 30px;
+	font-weight: 100;
+	/*font weight 100-900*/
+	padding: 0 40px;
+	/*in case 2 value first is top bottom padding
+	2nd is left right
+	in case of 4 values start from top in clockwise and ends at left, t,r,b,l valus*/
+
+
+}
+
+.btn-lg{
+	font-size: 24px;
+}
+/*.jumbotron p{
+	color: red;
+}*/
