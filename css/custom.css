@@ -33,11 +33,15 @@ ul.nav, .jumbotron h1{
 	font-size: 24px;
 }
 .homepage{
-	color: rgb(231, 76, 60);
-    font-family: arvo;
-    text-align: center;
+	text-align: center;
+	
+    
 }
+.homepage h2{
+	font-family: arvo;
+    color: rgb(231, 76, 60);
 }
+
 /*.jumbotron p{
 	color: red;
 }*/
