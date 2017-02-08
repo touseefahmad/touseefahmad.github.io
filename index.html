@@ -36,7 +36,7 @@
   <body>
 
    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container"
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -69,6 +69,7 @@
     <div class="container homepage">
       <!-- Example row of columns -->
       <h2> Get Involved</h2>
+      <hr>
       <div class="row">
         <div class="col-md-4">
           <h3>Students</h3>
@@ -83,7 +84,7 @@
         <div class="col-md-4">
           <h3>Sponsors</h3>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="bootstrapcolumns.html" role="button">Give Support &raquo;</a></p>
+          <p><a class="btn btn-default" onclick="windows()" role="button">Give Support &raquo;</a></p>
         </div>
       </div>
 
@@ -103,5 +104,12 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+    function windows(){
+      docuent.getElementById('para').innerHtml="Available Width:"+screen.availWidth+" <br> & Height: "+screen.availHeight;
+    }
+      
+  </script>
   </body>
+  
 </html>
